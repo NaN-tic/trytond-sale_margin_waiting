@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:helloword.hello,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:helloword.hello,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:helloword.hello,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:helloword.hello,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:helloword.hello,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:helloword.hello,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:helloword.hello,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:helloword.hello,name:"
+msgid "HelloWorld"
+msgstr "HelloWord"
+
+msgctxt "model:ir.action,name:act_hello_form"
+msgid "Hellos"
+msgstr "Holas"
+
+msgctxt "model:ir.ui.menu,name:menu_hello_form"
+msgid "Hellos"
+msgstr "Holas"
+
+msgctxt "model:ir.ui.menu,name:menu_helloword"
+msgid "HelloWord"
+msgstr "HelloWord"
+
+msgctxt "model:res.group,name:group_helloword_admin"
+msgid "HelloWord Administration"
+msgstr "HelloWord Administración"
+
+msgctxt "view:helloword.hello:"
+msgid "Hello"
+msgstr "Hola"

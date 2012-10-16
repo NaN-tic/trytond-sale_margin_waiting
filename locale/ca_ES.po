@@ -1,0 +1,64 @@
+# 
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Raimon Esteve <resteve@zikzakmedia.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "field:helloword.hello,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:helloword.hello,create_uid:"
+msgid "Create User"
+msgstr "Crear usuari"
+
+msgctxt "field:helloword.hello,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:helloword.hello,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:helloword.hello,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:helloword.hello,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:helloword.hello,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "model:helloword.hello,name:"
+msgid "HelloWorld"
+msgstr "HelloWorld"
+
+msgctxt "model:ir.action,name:act_hello_form"
+msgid "Hellos"
+msgstr "Holes"
+
+msgctxt "model:ir.ui.menu,name:menu_hello_form"
+msgid "Hellos"
+msgstr "Holes"
+
+msgctxt "model:ir.ui.menu,name:menu_helloword"
+msgid "HelloWord"
+msgstr "HelloWord"
+
+msgctxt "model:res.group,name:group_helloword_admin"
+msgid "HelloWord Administration"
+msgstr "HelloWord Administració"
+
+msgctxt "view:helloword.hello:"
+msgid "Hello"
+msgstr "Hola"
+
