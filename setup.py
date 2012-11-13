@@ -33,14 +33,14 @@ setup(name='trytonzz_sale_margin_waiting',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',
-    download_url="https://bitbucket.org/zikzakmedia/trytonzz-sale_margin_waiting",
-    package_dir={'trytonzz.modules.sale_margin_waiting': '.'},
+    download_url="https://bitbucket.org/zikzakmedia/trytond-sale_margin_waiting",
+    package_dir={'trytond.modules.sale_margin_waiting': '.'},
     packages=[
-        'trytonzz.modules.sale_margin_waiting',
-        'trytonzz.modules.sale_margin_waiting.tests',
+        'trytond.modules.sale_margin_waiting',
+        'trytond.modules.sale_margin_waiting.tests',
     ],
     package_data={
-        'trytonzz.modules.sale_margin_waiting': info.get('xml', []) \
+        'trytond.modules.sale_margin_waiting': info.get('xml', []) \
             + ['tryton.cfg', 'locale/*.po'],
     },
     classifiers=[
@@ -63,9 +63,9 @@ setup(name='trytonzz_sale_margin_waiting',
     install_requires=requires,
     zip_safe=False,
     entry_points="""
-    [trytonzz.modules]
-    sale_margin_waiting = trytonzz.modules.sale_margin_waiting
+    [trytond.modules]
+    sale_margin_waiting = trytond.modules.sale_margin_waiting
     """,
     test_suite='tests',
-    test_loader='trytonzz.test_loader:Loader',
+    test_loader='trytond.test_loader:Loader',
 )
