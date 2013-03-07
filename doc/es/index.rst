@@ -9,8 +9,8 @@ procesar la venta o no. En el caso que el pedido de venta esté pendiente de
 aprobación, el usuario siempre puede rectificarlo, pasarlo a borrador y volver
 hacer una nueva propuesta.
 
-Módulos que dependen
-====================
+Módulos de los que depende
+==========================
 
 Instalados
 ----------
