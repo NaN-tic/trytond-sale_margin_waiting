@@ -8,28 +8,3 @@ precio de coste hasta que un usuario con permisos de aprobación decida si
 procesar la venta o no. En el caso que el pedido de venta esté pendiente de
 aprobación, el usuario siempre puede rectificarlo, pasarlo a borrador y volver
 hacer una nueva propuesta.
-
-Módulos de los que depende
-==========================
-
-Instalados
-----------
-
-.. toctree::
-   :maxdepth: 1
-
-   /sale/index
-   /sale_margin/index
-   /sale_waiting/index
-
-Dependencias
-------------
-
-* Ventas_
-* `Margen pedido de ventas`_
-* `Venta en espera`_
-
-.. _Ventas: ../sale/index.html
-.. _Margen pedido de ventas: ../sale_margin/index.html
-.. _Venta en espera: ../sale_waiting/index.html
- 
