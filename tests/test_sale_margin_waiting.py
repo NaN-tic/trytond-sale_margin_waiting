@@ -12,13 +12,12 @@ if os.path.isdir(DIR):
 
 import unittest
 import trytond.tests.test_tryton
-from trytond.tests.test_tryton import POOL, DB_NAME, USER, CONTEXT, test_view,\
-    test_depends
-from trytond.transaction import Transaction
+from trytond.tests.test_tryton import test_depends
 
-class SaleMarginWarningTestCase(unittest.TestCase):
+
+class SaleMarginWaitingTestCase(unittest.TestCase):
     '''
-    Test Helloword module.
+    Test Sale Margin Waiting module.
     '''
 
     def setUp(self):
@@ -34,7 +33,7 @@ class SaleMarginWarningTestCase(unittest.TestCase):
 def suite():
     suite = trytond.tests.test_tryton.suite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-        SaleMarginWarningTestCase))
+        SaleMarginWaitingTestCase))
     return suite
 
 if __name__ == '__main__':
