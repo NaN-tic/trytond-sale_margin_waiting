@@ -1,55 +1,18 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:helloword.hello,create_date:"
-msgid "Create Date"
-msgstr "Fecha creación"
+msgctxt "field:sale.configuration,minimum_margin:"
+msgid "Minimum Margin"
+msgstr "Margen mínimo"
 
-msgctxt "field:helloword.hello,create_uid:"
-msgid "Create User"
-msgstr "Usuario creación"
+msgctxt "help:sale.configuration,minimum_margin:"
+msgid ""
+"If the margin of a sale is less than this, the sale will required to be "
+"confirmed."
+msgstr ""
+"Si el margen de la venta es menor a éste, la venta deberá ser aprobada."
 
-msgctxt "field:helloword.hello,id:"
-msgid "ID"
-msgstr "ID"
-
-msgctxt "field:helloword.hello,name:"
-msgid "Name"
-msgstr "Nombre"
-
-msgctxt "field:helloword.hello,rec_name:"
-msgid "Name"
-msgstr "Nombre"
-
-msgctxt "field:helloword.hello,write_date:"
-msgid "Write Date"
-msgstr "Fecha modificación"
-
-msgctxt "field:helloword.hello,write_uid:"
-msgid "Write User"
-msgstr "Usuario modificación"
-
-msgctxt "model:helloword.hello,name:"
-msgid "HelloWorld"
-msgstr "HelloWord"
-
-msgctxt "model:ir.action,name:act_hello_form"
-msgid "Hellos"
-msgstr "Holas"
-
-msgctxt "model:ir.ui.menu,name:menu_hello_form"
-msgid "Hellos"
-msgstr "Holas"
-
-msgctxt "model:ir.ui.menu,name:menu_helloword"
-msgid "HelloWord"
-msgstr "HelloWord"
-
-msgctxt "model:res.group,name:group_helloword_admin"
-msgid "HelloWord Administration"
-msgstr "HelloWord Administración"
-
-msgctxt "view:helloword.hello:"
-msgid "Hello"
-msgstr "Hola"
+msgctxt "model:ir.action,name:act_sale_waiting_form"
+msgid "Waiting Sales"
+msgstr "Ventas en espera"
