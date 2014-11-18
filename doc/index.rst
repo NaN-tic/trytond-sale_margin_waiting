@@ -1,4 +1,4 @@
-HelloWord Module
-###############
+Sale Margin Waiting Module
+##########################
 
-The helloword module is example tryton module.
+The sale margin waiting module add new state in sale: waiting.
