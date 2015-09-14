@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -13,6 +13,6 @@ msgid ""
 msgstr ""
 "Si el marge de la venda és menor a aquest, la venda haurà de ser aprovada."
 
-msgctxt "model:ir.action,name:act_sale_waiting_form"
+msgctxt "model:ir.action,name:"
 msgid "Waiting Sales"
 msgstr "Vendes en espera"
