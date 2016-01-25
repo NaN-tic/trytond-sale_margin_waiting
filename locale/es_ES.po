@@ -12,7 +12,3 @@ msgid ""
 "confirmed."
 msgstr ""
 "Si el margen de la venta es menor a éste, la venta deberá ser aprobada."
-
-msgctxt "model:ir.action,name:"
-msgid "Waiting Sales"
-msgstr "Ventas en espera"
