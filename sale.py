@@ -6,10 +6,10 @@ from trytond.model import fields
 from trytond.pool import Pool, PoolMeta
 
 __all__ = ['Configuration', 'Sale']
-__metaclass__ = PoolMeta
 
 
 class Configuration:
+    __metaclass__ = PoolMeta
     __name__ = 'sale.configuration'
 
     minimum_margin = fields.Numeric('Minimum Margin', digits=(16, 2),
@@ -18,7 +18,7 @@ class Configuration:
 
 
 class Sale:
-    'Sale'
+    __metaclass__ = PoolMeta
     __name__ = 'sale.sale'
 
     def check_for_quotation(self):
